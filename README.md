@@ -101,12 +101,7 @@ I guess there is only one way to find out... 😏
   </tbody>
 </table>
 
-<style>
-  .markdown-body table td[bgcolor] {
-    height: 2em;
-    width: 2em;
-  }
-  
+<style>  
   .markdown-body table td[bgcolor]::after {
     color: #fff;
     content: attr(bgcolor);
