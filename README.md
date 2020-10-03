@@ -61,6 +61,8 @@ So will you MR count towards you gaining you that free `#hacktoberfest` T-shirt?
 
 I guess there is only one way to find out... 😏
 
+## People
+
 <table>
   <thead>
     <tr>
@@ -68,9 +70,30 @@ I guess there is only one way to find out... 😏
     </tr>
   </thead>
   <tbody>
+    <tr><td>Ben Peachey</td><td>rgb(190, 234, 224)</td><td bgcolor="Ben Peachey"></td></tr>
     <tr><td>BenPeachey</td><td>rgb(190, 234, 224)</td><td bgcolor="BenPeachey"></td></tr>
+    <tr><td>Chuck Norris</td><td>rgb(192, 0, 0)</td><td bgcolor="Chuck Norris"></td></tr>
+    <tr><td>CodeWithHarry</td><td>rgb(192, 0, 10)</td><td bgcolor="CodeWithHarry"></td></tr>
+    <tr><td>Donald Trump</td><td>rgb(208, 208, 0)</td><td bgcolor="Donald Trump"></td></tr>
+    <tr><td>Poef</td><td>rgb(0, 0, 239)</td><td bgcolor="Poef"></td></tr>
+    <tr><td>Potherca</td><td>rgb(0, 14, 202)</td><td bgcolor="Potherca"></td></tr>
+
     <!-- Leave the line below as last row -->
     <tr><td>Your name here?</td><td>rgb(255, 255, 25%)</td><td bgcolor=""></td></tr>
+  </tbody>
+</table>
+
+
+## Places
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th><th>RGB</th><th>Color</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Ben Peachey</td><td>rgb(190, 234, 224)</td><td bgcolor="Ben Peachey"></td></tr>
   </tbody>
 </table>
 
@@ -78,6 +101,13 @@ I guess there is only one way to find out... 😏
   .markdown-body table td[bgcolor] {
     height: 2em;
     width: 2em;
+  }
+  
+  .markdown-body table td[bgcolor]::after {
+    color: #fff;
+    content: attr(bgcolor);
+    font-weight: bold;
+    text-shadow: -1px 0 1px black, 1px 0 1px black, 0 -1px 1px black, 0 1px 1px black;
   }
 
   .markdown-body tbody td:nth-child(2) {
@@ -89,3 +119,37 @@ I guess there is only one way to find out... 😏
     padding: 0.2em 0.4em;
   }
 </style>
+
+<!-- @TODO:
+
+## Places
+World
+Britain
+USA
+
+## Words
+
+Amazing 
+Brexit
+People
+Project
+Hacktoberfest 
+Shit
+free 
+Hacktoberfest 
+T-shirt
+fun
+stupid
+colors
+github
+HTML
+RGB
+Google
+name
+Merge Request
+Rules
+repo
+repositories
+pull request count
+core values
+-->
