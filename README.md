@@ -61,7 +61,15 @@ So will you MR count towards you gaining you that free `#hacktoberfest` T-shirt?
 
 I guess there is only one way to find out... 😏
 
-| Name | RBG | Color | 
-| --- | --- | --- |
-| Ben Peachey | `rgb(190, 234, 224)` | <table><tr><td bgcolor="Ben Peachey">&nbsp;</td></tr></table> |
-| _Your name here?_ | `rgb(255, 255, 255)` | <table><tr><td bgcolor="">&nbsp;</td></tr></table> |
+<table>
+  <thead>
+    <tr>
+      <th>Name</th><th>RGB</th><th>Color</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Ben Peachey</td><td>rgb(190, 234, 224)</td><td bgcolor="Ben Peachey"></td></tr>
+    <!-- Leave the line below as last row -->
+    <tr><td>Your name here?</td><td>rgb(255, 255, 25%)</td><td bgcolor=""></td></tr>
+  </tbody>
+</table>
