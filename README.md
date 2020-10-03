@@ -13,22 +13,22 @@ So what are you going to do about it? Ignore the stupid just have fun!
 This week, my friend [@poef](https://github.com/poef) mentioned the old joke that, in HTML colors, `Chuck Norris` is red.
 And not in a [`#bada55`](http://bada55.io/) way but _actual_ red. To be precise:`#C00000`.
 Or in a more modern format: `rgb(192, 0, 0)`.
-<td bgcolor="Chuck Norris">&nbsp;</td>
+<table><tr><td bgcolor="Chuck Norris">&nbsp;</td></tr></table>
 
 Any search engine will give you some hits as to _why_, so I'm not going into that here.
 
 What I will do, is tell you that this trick (obviously) works for other names as well.
 For instance, "CodeWithHarry" spells `rgb(192, 0, 10)`, which is only slightly more blue than Chuck Norris.
-<td bgcolor="CodeWithHarry">&nbsp;</td>
+<table><tr><td bgcolor="CodeWithHarry">&nbsp;</td></tr></table>
 
 I won't go into the relevance of "CodeWithHarry" here either, but I'm sure you can find some information online yourself.
 
 So "What does my name spell" I hear you ask? Well...
 
 "Potherca" becomes a rich dark blue`rgb(0, 14, 202)` 
-<span bgcolor="Potherca">&nbsp;</span>
+<table><tr><td bgcolor="Potherca">&nbsp;</td></tr></table>
 and "Ben Peachey" becomes `rgb(190, 234, 224)`, which is a grayish-cyan.
-<td bgcolor="Ben Peachey">&nbsp;</td>
+<table><tr><td bgcolor="Ben Peachey">&nbsp;</td></tr></table>
 
 Obviously, "Ben Peachey" is not actually _your_ name... So what color _does_ your name translate to?
 
@@ -63,5 +63,5 @@ I guess there is only one way to find out... 😏
 
 | Name | RBG | Color | 
 | --- | --- | --- |
-| Ben Peachey | `rgb(190, 234, 224)` | <td bgcolor="Ben Peachey">&nbsp;</td> |
-| _Your name here?_ | | |
+| Ben Peachey | `rgb(190, 234, 224)` | <table><tr><td bgcolor="Ben Peachey">&nbsp;</td></tr></table> |
+| _Your name here?_ | `rgb(255, 255, 255)` | <table><tr><td bgcolor="">&nbsp;</td></tr></table> |
