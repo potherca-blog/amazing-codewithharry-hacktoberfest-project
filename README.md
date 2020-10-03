@@ -96,7 +96,7 @@ I guess there is only one way to find out... 😏
     <tr><td>Britain</td><td>rgb(176, 160, 0)</td><td bgcolor="Britain"></td></tr>
     <tr><td>Great Britain</td><td>rgb(234, 176, 160)</td><td bgcolor="Great Britain"></td></tr>
     <tr><td>U.S.A.</td><td>rgb(0, 0, 160)</td><td bgcolor="U.S.A."></td></tr>
-    <tr><td>USA</td><td>rgb(0, 0, 160)</td><td bgcolor="USA"></td></tr>
+    <tr><td>USA</td><td>rgb(0, 0, 10)</td><td bgcolor="USA"></td></tr>
     <tr><td>World</td><td>rgb(0, 0, 208)</td><td bgcolor="World"></td></tr>
   </tbody>
 </table>
