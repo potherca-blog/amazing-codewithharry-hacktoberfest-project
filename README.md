@@ -13,7 +13,7 @@ So what are you going to do about it? Ignore the stupid just have fun!
 This week, my friend [@poef](https://github.com/poef) mentioned the old joke that, in HTML colors, `Chuck Norris` is red.
 And not in a [`#bada55`](http://bada55.io/) way but _actual_ red. To be precise:`#C00000`.
 Or in a more modern format: `rgb(192, 0, 0)`.
-<table><tr><td bgcolor="Chuck Norris">&nbsp;</td></tr></table>
+<table><tr><td bgcolor="ChuckNorris">&nbsp;</td></tr></table>
 
 Any search engine will give you some hits as to _why_, so I'm not going into that here.
 
@@ -28,7 +28,7 @@ So "What does my name spell" I hear you ask? Well...
 "Potherca" becomes a rich dark blue`rgb(0, 14, 202)` 
 <table><tr><td bgcolor="Potherca">&nbsp;</td></tr></table>
 and "Ben Peachey" becomes `rgb(190, 234, 224)`, which is a grayish-cyan.
-<table><tr><td bgcolor="Ben Peachey">&nbsp;</td></tr></table>
+<table><tr><td bgcolor="BenPeachey">&nbsp;</td></tr></table>
 
 Obviously, "Ben Peachey" is not actually _your_ name... So what color _does_ your name translate to?
 
@@ -68,8 +68,24 @@ I guess there is only one way to find out... 😏
     </tr>
   </thead>
   <tbody>
-    <tr><td>Ben Peachey</td><td>rgb(190, 234, 224)</td><td bgcolor="Ben Peachey"></td></tr>
+    <tr><td>BenPeachey</td><td>rgb(190, 234, 224)</td><td bgcolor="BenPeachey"></td></tr>
     <!-- Leave the line below as last row -->
     <tr><td>Your name here?</td><td>rgb(255, 255, 25%)</td><td bgcolor=""></td></tr>
   </tbody>
 </table>
+
+<style>
+  .markdown-body table td[bgcolor] {
+    height: 2em;
+    width: 2em;
+  }
+
+  .markdown-body tbody td:nth-child(2) {
+    background-color: #1b1f230d;
+    border-radius: 3px;
+    font-family: "SFMono-Regular",Consolas,"Liberation Mono",Menlo,Courier,monospace;
+    font-size: 85%;
+    margin: 0;
+    padding: 0.2em 0.4em;
+  }
+</style>
