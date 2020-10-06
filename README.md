@@ -77,6 +77,7 @@ I guess there is only one way to find out... 😏
     <tr><td>Donald Trump</td><td>rgb(208, 208, 0)</td><td bgcolor="Donald Trump"></td></tr>
     <tr><td>Poef</td><td>rgb(0, 0, 239)</td><td bgcolor="Poef"></td></tr>
     <tr><td>Potherca</td><td>rgb(0, 14, 202)</td><td bgcolor="Potherca"></td></tr>
+    <tr><td>Rohit</td><td>rgb(240, 14, 72)</td><td bgcolor="Rohit"></td></tr>
 
     <!-- Leave the line below as last row -->
     <tr><td>Your name here?</td><td>rgb(255, 255, 25%)</td><td bgcolor=""></td></tr>
